@@ -8,3 +8,10 @@
 
 ## The rule
 - The Rule is xn = xn−1 + xn−2
+
+## The code on python
+> def fib(n):
+>   _curr, _next = 0, 1
+>    for _ in range(n):
+>        _curr, _next = _next, _curr + _next
+>    return _curr
